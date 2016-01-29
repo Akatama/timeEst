@@ -1,0 +1,19 @@
+timeEst is a node.js + express.js application that uses the google maps API to give directions and a time estimate for travel
+
+Current version: .7 (beta)
+
+Bugs: 
+Sometimes google maps provides directions to the wrong address (it might have a similar sounding name or be on street of the same name, but in a different state). 
+
+Future Features: 
+Allowing the user to select what time they want to arrive or what to depart by
+    The way the app is currently set up this is impossible due to restrictions google has place on the API. There is a way to do it,         which would involve making an HTTPS request instead of using google.maps.DirectionsRenderer and google.maps.DirectionsService. Once      this is done, I will have to display the info by hand instead of using DirectionsRenderer.setDirections(response). It will take some     time, but it will be done.
+
+Add a proper UI using backbone.js
+
+Info:
+
+In order to run this application, you will need to have a couple google maps API keys, which you can get from https://developers.google.com/maps/?hl=en Add this API key in the index.html file.
+
+You will also need to have node.js and express.js downloaded. You can find info on how to run this application at http://expressjs.com/
+
