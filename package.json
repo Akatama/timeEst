@@ -1,0 +1,15 @@
+{
+  "name": "time_est",
+  "version": "1.0.0",
+  "description": "time estimation for travel",
+  "main": "app.js",
+  "scripts": {
+    "test": "npm install express --save"
+  },
+  "author": "Jimmy Lindsey",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.13.3"
+  },
+  "devDependencies": {}
+}
